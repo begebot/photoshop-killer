@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import toolbarSlice from '../features/toolbar/toolbarSlice';
+import workingAreaSlice from '../features/workingArea/workingAreaSlice';
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
+    toolbar: toolbarSlice,
+    workingArea: workingAreaSlice,
   },
 });
