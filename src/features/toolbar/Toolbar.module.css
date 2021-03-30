@@ -2,7 +2,9 @@
     width: 100px;
     background-color: aquamarine;
     padding: 20px;
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .section {
