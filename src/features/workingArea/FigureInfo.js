@@ -1,14 +1,14 @@
 import React from 'react';
 
 const LABELS = {
-    type: 'Тип',
-    radius: 'Радиус',
-    x: 'Позиция по X',
-    y: 'Позиция по Y',
-    width: 'Ширина',
-    height: 'Высота',
-    rotate: 'Поворот',
-    color: 'Цвет'
+    type: 'Figure type',
+    radius: 'Radius',
+    x: 'Position by X',
+    y: 'Position by Y',
+    width: 'Width',
+    height: 'Height',
+    rotate: 'Rotation (deg)',
+    color: 'Color'
 }
 
 const FigureInfo = ({ figure }) => (
